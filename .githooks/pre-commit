@@ -1,0 +1,23 @@
+#!/usr/bin/env bash
+# Strip Inkscape editor metadata from staged SVG files before committing.
+# Installed by: inkflow setup-git
+
+set -e
+
+mapfile -t staged < <(git diff --cached --name-only --diff-filter=ACM \
+  | grep -E '\.svg$' || true)
+[ ${#staged[@]} -eq 0 ] && exit 0
+
+if [ -x ".venv/bin/inkflow" ]; then
+    INKFLOW=".venv/bin/inkflow"
+elif command -v inkflow &>/dev/null; then
+    INKFLOW="inkflow"
+else
+    echo "[inkflow] inkflow not found, skipping SVG clean" >&2
+    exit 0
+fi
+
+echo "[inkflow] cleaning staged SVGs..."
+"$INKFLOW" clean "${staged[@]}"
+
+git add "${staged[@]}"
