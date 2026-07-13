@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": ["Bash(mise run *)"],
+    "ask": ["Edit(mise.toml)", "Write(mise.toml)"]
+  },
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Edit|Write",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "${CLAUDE_PROJECT_DIR}/.claude/hooks/autofix.sh"
+          }
+        ]
+      }
+    ]
+  }
+}
