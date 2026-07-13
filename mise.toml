@@ -1,0 +1,20 @@
+[tools]
+uv = "latest"
+
+[tasks.lint]
+run = "uv run ruff check"
+
+[tasks.fmt]
+run = "uv run ruff format --check"
+
+[tasks.typecheck]
+run = "uv run basedpyright"
+
+[tasks.build]
+run = "uv run inkflow build"
+
+[tasks.fix]
+run = ["uv run ruff check --fix", "uv run ruff format"]
+
+[tasks.check]
+depends = ["lint", "fmt", "typecheck", "build"]

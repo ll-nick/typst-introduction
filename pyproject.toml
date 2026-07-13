@@ -8,3 +8,16 @@ dependencies = [
 
 [tool.uv.sources]
 inkflow = { git = "https://github.com/ll-nick/inkflow" }
+
+[dependency-groups]
+dev = [
+    "basedpyright>=1.39.9",
+    "ruff>=0.15.21",
+]
+
+[tool.pyright]
+reportUnusedCallResult = "none"
+reportMissingTypeStubs = "none"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "SIM", "RUF"]
