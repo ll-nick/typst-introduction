@@ -10,21 +10,21 @@ def main() -> Deck:
             # 1 · TL;DR
             Slide("two-cols", md="tldr"),
             # 2 · Getting started
-            Slide("default", md="getting-started"),
+            Slide("content", md="getting-started"),
             # 3 · Crash course + live demo
             Slide("section", md="section-crashcourse"),
-            Slide("default", md="markup"),
-            Slide("default", md="math"),
-            Slide("default", md="scripting"),
-            Slide("default", md="figures-refs"),
-            Slide("default", md="templates"),
+            Slide("content", md="markup"),
+            Slide("content", md="math"),
+            Slide("content", md="scripting"),
+            Slide("content", md="figures-refs"),
+            Slide("content", md="templates"),
             # 4 · kinetic-kit
             Slide("section", md="section-kinetickit"),
-            Slide("default", md="kinetic-kit"),
+            Slide("content", md="kinetic-kit"),
             # 5 · Wrap-up
-            Slide("default", md="wrapup"),
+            Slide("content", md="wrapup"),
             # 6 · Aside: these slides
-            Slide("default", md="inkflow"),
+            Slide("content", md="inkflow"),
             # Q&A
             Slide("end", md="end"),
         ],
