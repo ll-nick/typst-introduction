@@ -1,5 +1,6 @@
 [tools]
 uv = "latest"
+typst = "0.15"
 
 [tasks.lint]
 run = "uv run ruff check"
