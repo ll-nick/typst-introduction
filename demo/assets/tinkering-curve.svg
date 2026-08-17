@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 240" font-family="Helvetica,Arial,sans-serif">
+  <!-- axes -->
+  <line x1="48" y1="16" x2="48" y2="202" stroke="#222" stroke-width="1"/>
+  <line x1="48" y1="202" x2="346" y2="202" stroke="#222" stroke-width="1"/>
+  <!-- asymptote r=1 -->
+  <line x1="346.0" y1="16" x2="346.0" y2="202" stroke="#999" stroke-width="1" stroke-dasharray="4 3"/>
+  <text x="343.0" y="26" text-anchor="end" font-size="9" fill="#777">r = 1</text>
+  <!-- curve -->
+  <polyline points="48.0,185.1 54.0,184.7 59.9,184.4 65.9,184.0 71.8,183.6 77.8,183.2 83.8,182.8 89.7,182.3 95.7,181.9 101.6,181.4 107.6,180.9 113.6,180.3 119.5,179.8 125.5,179.1 131.4,178.5 137.4,177.8 143.4,177.1 149.3,176.4 155.3,175.6 161.2,174.7 167.2,173.8 173.2,172.8 179.1,171.8 185.1,170.7 191.0,169.5 197.0,168.2 203.0,166.8 208.9,165.2 214.9,163.6 220.8,161.7 226.8,159.7 232.8,157.5 238.7,155.0 244.7,152.3 250.6,149.2 256.6,145.6 262.6,141.6 268.5,137.0 274.5,131.5 280.4,125.1 286.4,117.5 292.4,108.1 298.3,96.3 304.3,81.2 310.2,61.1 316.2,32.9 322.2,16.0" fill="none" stroke="#1f4e79" stroke-width="2.2"/>
+  <!-- marker -->
+  <circle cx="316.2" cy="32.9" r="3.6" fill="#c0392b"/>
+  <text x="310.2" y="26.9" text-anchor="end" font-size="9.5" fill="#c0392b">you are here</text>
+  <!-- axis labels -->
+  <text x="197.0" y="232" text-anchor="middle" font-size="11" fill="#222">Tinkering ratio  r = t_setup / t_writing</text>
+  <text x="14" y="109.0" text-anchor="middle" font-size="11" fill="#222" transform="rotate(-90 14 109.0)">Time to submission</text>
+</svg>

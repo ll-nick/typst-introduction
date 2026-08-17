@@ -14,8 +14,21 @@ run = "uv run basedpyright"
 [tasks.build]
 run = "uv run inkflow build"
 
+[tasks.paper]
+description = "Compile the demo paper (main + every lesson)"
+dir = "demo"
+run = [
+    "typst compile --root . main.typ main.pdf",
+    "typst compile --root . lessons/markup.typ /tmp/typst-check.pdf",
+    "typst compile --root . lessons/math.typ /tmp/typst-check.pdf",
+    "typst compile --root . lessons/scripting.typ /tmp/typst-check.pdf",
+    "typst compile --root . lessons/figures.typ /tmp/typst-check.pdf",
+    "typst compile --root . lessons/bibliography.typ /tmp/typst-check.pdf",
+    "typst compile --root . lessons/template.typ /tmp/typst-check.pdf",
+]
+
 [tasks.fix]
 run = ["uv run ruff check --fix", "uv run ruff format"]
 
 [tasks.check]
-depends = ["lint", "fmt", "typecheck", "build"]
+depends = ["lint", "fmt", "typecheck", "build", "paper"]
