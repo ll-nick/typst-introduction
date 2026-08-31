@@ -1,0 +1,5 @@
+/*  Add some space after code blocks */
+.inkflow-codeblock {
+    margin-top: 0.25em;
+    margin-bottom: 1.0em;
+}
