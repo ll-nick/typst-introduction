@@ -3,3 +3,8 @@
     margin-top: 0.25em;
     margin-bottom: 1.0em;
 }
+
+/*  Rounder corners on code blocks */
+.inkflow-codeblock pre.highlight {
+    border-radius: 20px;
+}
