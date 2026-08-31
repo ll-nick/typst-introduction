@@ -15,6 +15,7 @@ def main() -> Deck:
             Slide("section", md="section-crashcourse"),
             Slide("content", md="markup"),
             Slide("content", md="math"),
+            Slide("content", md="modes", font_size=34),
             Slide("content", md="scripting"),
             Slide("content", md="figures-refs"),
             Slide("content", md="templates"),
