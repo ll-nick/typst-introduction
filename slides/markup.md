@@ -1,14 +1,24 @@
 # Markup basics
 
-## Content mode vs. code mode
+```typst
+= Heading
+== Subheading
 
-- Headings `=`, emphasis `*bold*` / `_italic_`, lists — Markdown-like
-- `#` drops into code; `[ ]` brings you back to content
-- No preamble, no `\begin{document}`
+Text with *bold* and _italic_ words.
+
+- a bullet
+- another bullet
++ a numbered item
+```
 
 ::notes::
 
-LIVE: start the running example — title, an author line, a couple of
-sections, a list. Show the markup/`#` duality once; it's the mental model
-for everything later. LaTeX contrast: no `\documentclass`, no `\usepackage`
-just to write a paragraph.
+Typst starts in *markup mode*: text is just text, and a blank line is a
+paragraph break.
+The most common elements get special syntax, so a simple document reads similar to Markdown.
+A leading `=` marks a heading (`==` a subheading, and so on),
+`*stars*` give bold, `_underscores_` italics, and a line beginning with `-`
+(or `+` for numbered) is a list item.
+
+There is no document class to choose and no `\begin{document}`.
+An empty file produces a valid PDF with sane defaults.
