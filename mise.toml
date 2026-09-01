@@ -12,7 +12,11 @@ run = "uv run ruff format --check"
 run = "uv run basedpyright"
 
 [tasks.build]
+depends = ["paper"]
 run = "uv run inkflow build"
+
+[tasks.serve]
+run = "uv run inkflow serve"
 
 [tasks.paper]
 description = "Compile the demo paper (main + every lesson)"
@@ -31,4 +35,4 @@ run = [
 run = ["uv run ruff check --fix", "uv run ruff format"]
 
 [tasks.check]
-depends = ["lint", "fmt", "typecheck", "build", "paper"]
+depends = ["lint", "fmt", "typecheck", "build"]
