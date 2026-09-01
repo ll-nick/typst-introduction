@@ -1,6 +1,4 @@
-# Typst: What if LaTeX were designed today?
-
-## Typ-setting a new standard: life after `\makeatletter`
+# Typesetting a new standard:<br>life after `\makeatletter`
 
 ::notes::
 
