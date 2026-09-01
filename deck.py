@@ -16,16 +16,14 @@ def main() -> Deck:
             Slide("content", md="markup"),
             Slide("content", md="math"),
             Slide("content", md="modes", font_size=34),
+            Slide("two-cols", md="types"),
+            Slide("content", md="control-flow"),
             Slide("content", md="scripting"),
             Slide("content", md="figures-refs"),
             Slide("content", md="templates"),
             # 4 · kinetic-kit
             Slide("section", md="section-kinetickit"),
-            Slide("content", md="kinetic-kit"),
-            # 5 · Wrap-up
-            Slide("content", md="wrapup"),
-            # 6 · Aside: these slides
-            Slide("content", md="inkflow"),
+            Slide("content", md="kinetic-kit", font_size=34),
             # Q&A
             Slide("end", md="end"),
         ],

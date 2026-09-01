@@ -14,10 +14,6 @@ Editor + Tinymist
 : Language server for VS Code, Neovim, … — live preview, autocomplete, diagnostics
 : Best as your daily driver
 
-::step::
-
-*New to it? Start in the browser, go local once you want it in git.*
-
 ::notes::
 
 The three on-ramps share the same compiler; they differ only in where you run it.

@@ -4,6 +4,9 @@
 
 ::notes::
 
-Leave 15+ min. Likely questions to prep: journal support, collaboration vs
-Overleaf, bibliography/CSL edge cases, math parity, long-doc performance,
-migration effort. Slides will be published — links on the wrap-up slide.
+Learn more:
+- [Typst tutorial and documentation](https://typst.app/docs),
+- [Typst Universe Repository](https://typst.app/universe),
+- [Guide for LaTeX users](https://typst.app/docs/guides/for-latex-users/),
+- [kinetic-kit for KIT theses](https://github.com/ll-nick/kinetic-kit),
+- [Inkflow](https://github.com/ll-nick/inkflow) - the tool behind these slides.

@@ -1,14 +1,31 @@
-# The payoff
+# Styling *is* programming
 
-## Styling *is* programming
+**Set** — `#set` changes an element's default from here on.
 
-- `#set` — change defaults (font, page, heading numbering)
-- `#show` — rewrite how any element renders
-- Real functions, variables, loops — no `\def` / `\newcommand` dark arts
+```typst
+#set par(justify: true)
+#set heading(numbering: "1.")
+```
+
+**Show** — `#show` rewrites how an element renders.
+
+```typst
+#show heading: set text(navy)
+
+= A numbered, navy heading
+```
 
 ::notes::
 
-LIVE: this is the "aha". Re-style the running doc with a few `set` rules
-(font, margins, numbered headings). Then a `show` rule to restyle every
-figure or every heading at once. Contrast with LaTeX's fragmented styling
-(`titlesec`, `geometry`, `fancyhdr`, catcode hacks) — here it's one language.
+The same language from the last slides — functions, values, control flow — is
+what styles the document, through two kinds of rule. A `#set` rule changes an
+element's defaults for everything that follows: `set par(justify: true)`
+justifies the rest of the document, `set heading(numbering: "1.")` numbers the
+headings. A `#show` rule goes further and rewrites how an element is displayed —
+`show heading: set text(navy)` recolours every heading at once, and a show rule
+can replace an element with arbitrary content of your own.
+
+Together, set and show cover what LaTeX spreads across packages like `titlesec`,
+`geometry`, and `fancyhdr`, plus the occasional `\makeatletter`. There is no
+separate "preamble language": the document's appearance is written in the very
+same language as the document itself.

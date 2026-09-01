@@ -1,15 +1,22 @@
 # Math
 
+**Inline** — wrap math in `$…$` within a sentence.
+
 ```typst
 Inline math like $a^2 + b^2 = c^2$ in a sentence.
+```
 
-A space or newline inside the `$` delimiters switches to a display equation:
+**Display** — a space or newline inside the `$` delimiters centres it.
+
+```typst
 $
   sum_(k=1)^n k = (n(n+1)) / 2
 $
+```
 
-Symbols (`theta`), accent functions (`hat()`),
-shorthands (`->`, `oo`) and quoted text mix freely:
+**Symbols** — named symbols, accent functions, shorthands and quoted text mix freely.
+
+```typst
 $
   hat(theta)_"MLE" -> theta^* quad "as" n -> oo
 $

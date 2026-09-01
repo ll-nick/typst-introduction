@@ -1,9 +1,9 @@
 # kinetic-kit
 
-## The KIT dissertation template
+## A KIT dissertation template
 
 ::notes::
 
-Section divider. Why it matters to THIS room: about to become the official
-KIT thesis template — relevant to everyone writing or supervising a
-dissertation. Repo: github.com/ll-nick/kinetic-kit
+kinetic-kit is the official Typst template for doctoral theses published through KIT Scientific Publishing (KSP).
+It covers Bachelor's and Master's theses too.
+Repository: [github.com/ll-nick/kinetic-kit](https://github.com/ll-nick/kinetic-kit)
