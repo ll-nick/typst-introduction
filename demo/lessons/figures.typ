@@ -31,3 +31,6 @@
   ),
   caption: [A representative month.],
 ) <tab:time>
+
+Of the #month.map(entry => entry.hours).sum() hours logged,
+only three went into writing.
