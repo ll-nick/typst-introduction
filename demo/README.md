@@ -12,13 +12,14 @@ About 30 minutes.
   `{ "key": "ctrl+alt+n", "command": "demo-time.start" }`
 - `mise run paper` checks every scene and caches `charged-ieee`.
 - `code demo`, light theme, zoomed in, AI completions and notifications off.
-- Reset after a dry run: *Demo Time: Reset* and `git restore demo/main.typ`.
+- Reset after a dry run: *Demo Time: Reset*.
 
 ## Lessons
 
 ### 0 · Start
 
-Open the empty `main.typ` and *Typst Preview: Preview Opened File*:
+Run the *Setup* scene (empties and opens `main.typ`),
+then *Typst Preview: Preview Opened File*:
 an empty file compiles.
 
 ### 1 · Markup

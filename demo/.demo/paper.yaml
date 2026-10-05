@@ -10,6 +10,11 @@ title: Just One More Plugin
 description: Grow a paper from an empty file to an IEEE article, one concept at a time.
 version: 3
 scenes:
+  - title: Setup
+    moves:
+      - { action: create, path: main.typ }
+      - { action: open, path: main.typ }
+
   - title: Markup
     moves:
       - { action: replace, path: main.typ, position: "start:end", contentPath: lessons/markup.typ }
