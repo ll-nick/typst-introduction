@@ -1,0 +1,75 @@
+# yaml-language-server: $schema=https://demotime.show/demo-time.schema.json
+# Open demo/ (not the repository root) as the VS Code workspace:
+# Demo Time resolves every path below relative to the workspace root.
+#
+# Each scene rebuilds main.typ from lessons/, discarding whatever was typed live:
+# replace the whole file with the first lesson file, then append the rest.
+# Appending at `end` relies on every lesson file ending in a newline,
+# because `insert` overwrites the target line unless it is empty.
+title: Just One More Plugin
+description: Grow a paper from an empty file to an IEEE article, one concept at a time.
+version: 3
+scenes:
+  - title: Markup
+    moves:
+      - { action: replace, path: main.typ, position: "start:end", contentPath: lessons/markup.typ }
+      # Placeholders are looked up in the file on disk.
+      - { action: save }
+      - { action: highlight, path: main.typ, startPlaceholder: "= Introduction", endPlaceholder: "actually help." }
+
+  - title: Math
+    moves:
+      - { action: replace, path: main.typ, position: "start:end", contentPath: lessons/markup.typ }
+      - { action: insert, path: main.typ, position: end, contentPath: lessons/math.typ }
+      - { action: save }
+      - { action: highlight, path: main.typ, startPlaceholder: "= Method", endPlaceholder: "T_0 / (1 - r) $" }
+
+  - title: Scripting
+    moves:
+      - { action: replace, path: main.typ, position: "start:end", contentPath: lessons/markup.typ }
+      - { action: insert, path: main.typ, position: end, contentPath: lessons/math.typ }
+      - { action: insert, path: main.typ, position: end, contentPath: lessons/scripting.typ }
+      - { action: save }
+      - { action: highlight, path: main.typ, startPlaceholder: "= Case Study", endPlaceholder: "sustainable allocation." }
+
+  - title: Figures
+    moves:
+      - { action: replace, path: main.typ, position: "start:end", contentPath: lessons/markup.typ }
+      - { action: insert, path: main.typ, position: end, contentPath: lessons/math.typ }
+      - { action: insert, path: main.typ, position: end, contentPath: lessons/scripting.typ }
+      - { action: insert, path: main.typ, position: end, contentPath: lessons/figures.typ }
+      - { action: save }
+      - { action: highlight, path: main.typ, startPlaceholder: "= Results", endPlaceholder: "<tab:time>" }
+
+  - title: Bibliography
+    moves:
+      - { action: replace, path: main.typ, position: "start:end", contentPath: lessons/markup.typ }
+      - { action: insert, path: main.typ, position: end, contentPath: lessons/math.typ }
+      - { action: insert, path: main.typ, position: end, contentPath: lessons/scripting.typ }
+      - { action: insert, path: main.typ, position: end, contentPath: lessons/figures.typ }
+      - { action: insert, path: main.typ, position: end, contentPath: lessons/bibliography.typ }
+      - { action: save }
+      - { action: highlight, path: main.typ, startPlaceholder: "= Threats to Validity", endPlaceholder: '#bibliography("refs.bib", style: "ieee")' }
+
+  - title: Styling
+    moves:
+      - { action: replace, path: main.typ, position: "start:end", contentPath: lessons/styling.typ }
+      - { action: insert, path: main.typ, position: end, contentPath: lessons/markup.typ }
+      - { action: insert, path: main.typ, position: end, contentPath: lessons/math.typ }
+      - { action: insert, path: main.typ, position: end, contentPath: lessons/scripting.typ }
+      - { action: insert, path: main.typ, position: end, contentPath: lessons/figures.typ }
+      - { action: insert, path: main.typ, position: end, contentPath: lessons/bibliography.typ }
+      - { action: save }
+      - { action: highlight, path: main.typ, startPlaceholder: "#set par", endPlaceholder: "set text(navy)" }
+
+  - title: Template
+    moves:
+      # The template takes over the hand-written styling.
+      - { action: replace, path: main.typ, position: "start:end", contentPath: lessons/template.typ }
+      - { action: insert, path: main.typ, position: end, contentPath: lessons/markup.typ }
+      - { action: insert, path: main.typ, position: end, contentPath: lessons/math.typ }
+      - { action: insert, path: main.typ, position: end, contentPath: lessons/scripting.typ }
+      - { action: insert, path: main.typ, position: end, contentPath: lessons/figures.typ }
+      - { action: insert, path: main.typ, position: end, contentPath: lessons/bibliography.typ }
+      - { action: save }
+      - { action: highlight, path: main.typ, startPlaceholder: "#import", endPlaceholder: "index-terms:" }

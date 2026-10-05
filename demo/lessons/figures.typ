@@ -1,15 +1,20 @@
-// Lesson 4 — Figures, tables, and cross-references.
 
 = Results
 
-@fig:curve shows the predicted divergence; @tab:time reports where the month
-actually went.
+@fig:curve shows the predicted divergence;
+@tab:time reports where the month actually went.
 
 #figure(
-  image("../assets/tinkering-curve.svg", width: 80%),
+  image("assets/tinkering-curve.svg", width: 80%),
   caption: [Predicted submission time diverges as the tinkering ratio
     $r arrow.r 1$.],
 ) <fig:curve>
+
+#let month = (
+  (activity: [Rewriting dotfiles], hours: 41, pages: 0),
+  (activity: [Migrating LaTeX $arrow.r$ Typst], hours: 27, pages: 0.5),
+  (activity: [Actual writing], hours: 3, pages: 1.5),
+)
 
 #figure(
   table(
@@ -19,9 +24,9 @@ actually went.
     table.hline(),
     table.header([Activity], [Hours], [Pages]),
     table.hline(),
-    [Rewriting dotfiles], [14], [0],
-    [Migrating LaTeX $arrow.r$ Typst], [11], [0.5],
-    [Actual writing], [3], [1.5],
+    ..for entry in month {
+      (entry.activity, [#entry.hours], [#entry.pages])
+    },
     table.hline(),
   ),
   caption: [A representative month.],

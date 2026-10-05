@@ -1,9 +1,8 @@
-// Lesson 1 — Markup: headings, emphasis, lists. No preamble, no \begin{document}.
-
 = Introduction
 
-Writing a dissertation is *hard*. Optimizing the _setup_ in which you would
-write it is, by comparison, delightful.
+Writing a dissertation is *hard*.
+Optimizing the _setup_ in which you would write it is,
+by comparison, delightful.
 
 Three activities that reliably feel like progress:
 
