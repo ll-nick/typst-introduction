@@ -23,7 +23,7 @@ def main() -> Deck:
             Slide("content", md="templates"),
             # 4 · kinetic-kit
             Slide("section", md="section-kinetickit"),
-            Slide("content", md="kinetic-kit", font_size=34),
+            Slide("content", md="kinetic-kit", font_size=31),
             # Q&A
             Slide("end", md="end"),
         ],
