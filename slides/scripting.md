@@ -40,4 +40,4 @@ and a string or regular expression also works as a selector:
 `show "LaTeX": smallcaps` restyles every occurrence of a word.
 Leaving out the selector gives the *everything* show rule:
 `show: smallcaps` hands the rest of the document to `smallcaps` as a single piece of content,
-and the mechanism behind templates.
+and is the mechanism behind templates.

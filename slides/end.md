@@ -1,6 +1,6 @@
 # Thank you!
 
-## Questions & discussion
+## [ll-nick.github.io/typst-introduction](https://ll-nick.github.io/typst-introduction)
 
 ::notes::
 
