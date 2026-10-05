@@ -35,7 +35,7 @@ scenes:
       - { action: insert, path: main.typ, position: end, contentPath: lessons/math.typ }
       - { action: insert, path: main.typ, position: end, contentPath: lessons/scripting.typ }
       - { action: save }
-      - { action: highlight, path: main.typ, startPlaceholder: "= Case Study", endPlaceholder: "sustainable allocation." }
+      - { action: highlight, path: main.typ, startPlaceholder: "= Case Study", endPlaceholder: "took a weekend.]" }
 
   - title: Figures
     moves:
@@ -44,7 +44,7 @@ scenes:
       - { action: insert, path: main.typ, position: end, contentPath: lessons/scripting.typ }
       - { action: insert, path: main.typ, position: end, contentPath: lessons/figures.typ }
       - { action: save }
-      - { action: highlight, path: main.typ, startPlaceholder: "= Results", endPlaceholder: "<tab:time>" }
+      - { action: highlight, path: main.typ, startPlaceholder: "= Results", endPlaceholder: "went into writing." }
 
   - title: Bibliography
     moves:
@@ -65,7 +65,7 @@ scenes:
       - { action: insert, path: main.typ, position: end, contentPath: lessons/figures.typ }
       - { action: insert, path: main.typ, position: end, contentPath: lessons/bibliography.typ }
       - { action: save }
-      - { action: highlight, path: main.typ, startPlaceholder: "#set par", endPlaceholder: "set text(navy)" }
+      - { action: highlight, path: main.typ, startPlaceholder: "#set page", endPlaceholder: "align(center, it)" }
 
   - title: Template
     moves:
