@@ -110,6 +110,7 @@ At the very top:
 ```
 
 A template is just a function.
+`.with` presets its options; `#show:` hands it the rest of the document.
 Navy survives because the own rules come later; the reveal removes them.
 Bridge to kinetic-kit.
 

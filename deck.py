@@ -34,7 +34,7 @@ def main() -> Deck:
             Slide("content", md="figures-refs"),
             Slide("content", md="scripting"),
             Slide("content", md="universe"),
-            Slide("content", md="templates"),
+            Slide("content", md="templates", font_size=34),
             # kinetic-kit
             Slide(
                 "center",
