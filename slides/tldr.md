@@ -22,10 +22,10 @@ Errors you can read
 
 ## Why you shouldn't
 
-::steps::
-
 Younger ecosystem
 : CTAN is much more mature than Typst Universe
+
+::steps::
 
 Younger ecosystem
 : Your collaborators are probably still using LaTeX
