@@ -1,4 +1,4 @@
-from inkflow import Deck, Slide, Trigger, animations, transitions
+from inkflow import Deck, Image, MediaFit, Slide, Trigger, animations, transitions
 
 
 def show_and_hide(id: str, show_at: int) -> list[animations.Animation]:
@@ -36,6 +36,12 @@ def main() -> Deck:
             Slide("content", md="universe"),
             Slide("content", md="templates"),
             # kinetic-kit
+            Slide(
+                "center",
+                zones={
+                    "content": Image("assets/distracted-me.jpg", fit=MediaFit.CONTAIN)
+                },
+            ),
             Slide("section", md="section-kinetickit"),
             Slide("content", md="kinetic-kit", font_size=31),
             Slide("end", md="end"),
