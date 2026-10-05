@@ -17,7 +17,7 @@
 
 ::notes::
 
-The same language from the last slides — functions, values, control flow — is
+The same language from earlier — functions, values, control flow — is
 what styles the document, through two kinds of rule. A `#set` rule changes an
 element's defaults for everything that follows: `set par(justify: true)`
 justifies the rest of the document, `set heading(numbering: "1.")` numbers the
