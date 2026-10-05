@@ -1,4 +1,4 @@
-# Typesetting a new standard:<br>life after `\makeatletter`
+# Typst:<br>life after `\makeatletter`
 
 A talk that introduces [Typst](https://typst.app), a modern typesetting system and LaTeX alternative.
 
