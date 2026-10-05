@@ -17,6 +17,7 @@ def main() -> Deck:
             Slide("content", md="control-flow"),
             Slide("content", md="figures-refs"),
             Slide("content", md="scripting"),
+            Slide("content", md="universe"),
             Slide("content", md="templates"),
             # kinetic-kit
             Slide("section", md="section-kinetickit"),
