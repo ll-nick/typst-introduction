@@ -1,7 +1,3 @@
-# Typesetting a new standard:<br>life after `\makeatletter`
-
-::notes::
-
 Typst is a modern typesetting system — a contemporary alternative to LaTeX.
 This deck is written for people who already know LaTeX:
 it covers why Typst is worth a look, how to start using it, a tour of the

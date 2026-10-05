@@ -5,13 +5,10 @@ def main() -> Deck:
     return Deck(
         transition=transitions.Crossfade(),
         slides=[
-            # 0 · Title & framing
-            Slide("cover", md="title", font_size=23),
-            # 1 · TL;DR
+            Slide("title", notes="slides/title.md"),
             Slide("two-cols", md="tldr"),
-            # 2 · Getting started
             Slide("content", md="getting-started"),
-            # 3 · Crash course + live demo
+            # Crash course + live demo
             Slide("section", md="section-crashcourse"),
             Slide("content", md="markup"),
             Slide("content", md="math"),
@@ -21,10 +18,9 @@ def main() -> Deck:
             Slide("content", md="figures-refs"),
             Slide("content", md="scripting"),
             Slide("content", md="templates"),
-            # 4 · kinetic-kit
+            # kinetic-kit
             Slide("section", md="section-kinetickit"),
             Slide("content", md="kinetic-kit", font_size=31),
-            # Q&A
             Slide("end", md="end"),
         ],
     )
