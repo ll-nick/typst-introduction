@@ -30,7 +30,7 @@ an empty file compiles.
 Writing a dissertation is *hard*.
 
 - reconfiguring the editor
-- migrating to a new typesetting system
++ a numbered item
 ```
 
 No preamble, instant preview.
@@ -58,7 +58,8 @@ The ratio came to #tinkering(68, 3).
 
 `#` enters code mode.
 Hover for types.
-The reveal formats the number with `calc.round`.
+The reveal formats the number with `calc.round`
+and adds `#footnote[…]`, a trailing content argument.
 
 ### 4 · Figures
 
@@ -71,7 +72,8 @@ See @fig:curve.
 ```
 
 SVG without conversion, automatic numbering.
-The reveal adds a table built by a `for` loop over data.
+The reveal adds a table built by a `for` loop over data
+and a total via `.map(…).sum()`.
 
 ### 5 · Bibliography
 
@@ -91,9 +93,11 @@ Try `style: "apa"`.
 At the top, one line at a time:
 
 ```typst
+#set page(columns: 2)
 #set par(justify: true)
 #set heading(numbering: "1.")
 #show heading: set text(navy)
+#show heading.where(level: 1): it => align(center, it)
 ```
 
 ### 7 · Template
