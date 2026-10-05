@@ -1,4 +1,11 @@
-from inkflow import Deck, Slide, transitions
+from inkflow import Deck, Slide, Trigger, animations, transitions
+
+
+def show_and_hide(id: str, show_at: int) -> list[animations.Animation]:
+    return [
+        animations.FadeIn(id, Trigger.at(show_at)),
+        animations.FadeOut(id, Trigger.at(show_at + 1)),
+    ]
 
 
 def main() -> Deck:
@@ -6,7 +13,16 @@ def main() -> Deck:
         transition=transitions.Crossfade(),
         slides=[
             Slide("title", notes="slides/title.md"),
-            Slide("two-cols", md="tldr"),
+            Slide(
+                "tldr",
+                md="tldr",
+                animations=[
+                    *show_and_hide("speed", 1),
+                    *show_and_hide("consistent", 2),
+                    *show_and_hide("ctan", 3),
+                    *show_and_hide("errors", 4),
+                ],
+            ),
             Slide("content", md="getting-started"),
             # Crash course + live demo
             Slide("section", md="section-crashcourse"),

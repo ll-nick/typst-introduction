@@ -1,0 +1,65 @@
+<svg xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" xmlns:inkflow="urn:inkflow" inkflow:parent="two-cols" inkflow:default-zone="left" viewBox="0 0 1920 1080" width="1920" height="1080" version="2.0" id="svg5" standalone="no">
+  <defs id="defs1">
+    <style id="inkflow-preview">.inkflow-fill-bg { fill: #1e1e2e; }
+.inkflow-stroke-bg { stroke: #1e1e2e; }
+.inkflow-fill-surface { fill: #313244; }
+.inkflow-stroke-surface { stroke: #313244; }
+.inkflow-fill-border { fill: #585b70; }
+.inkflow-stroke-border { stroke: #585b70; }
+.inkflow-fill-text { fill: #cdd6f4; }
+.inkflow-stroke-text { stroke: #cdd6f4; }
+.inkflow-fill-text-muted { fill: #a6adc8; }
+.inkflow-stroke-text-muted { stroke: #a6adc8; }
+.inkflow-fill-accent { fill: #cba6f7; }
+.inkflow-stroke-accent { stroke: #cba6f7; }
+.inkflow-fill-accent-fg { fill: #11111b; }
+.inkflow-stroke-accent-fg { stroke: #11111b; }
+.inkflow-fill-code-bg { fill: #181825; }
+.inkflow-stroke-code-bg { stroke: #181825; }
+.inkflow-fill-code-text { fill: #cdd6f4; }
+.inkflow-stroke-code-text { stroke: #cdd6f4; }
+.inkflow-fill-red { fill: #f38ba8; }
+.inkflow-stroke-red { stroke: #f38ba8; }
+.inkflow-fill-orange { fill: #fab387; }
+.inkflow-stroke-orange { stroke: #fab387; }
+.inkflow-fill-yellow { fill: #f9e2af; }
+.inkflow-stroke-yellow { stroke: #f9e2af; }
+.inkflow-fill-green { fill: #a6e3a1; }
+.inkflow-stroke-green { stroke: #a6e3a1; }
+.inkflow-fill-teal { fill: #94e2d5; }
+.inkflow-stroke-teal { stroke: #94e2d5; }
+.inkflow-fill-blue { fill: #89b4fa; }
+.inkflow-stroke-blue { stroke: #89b4fa; }
+.inkflow-fill-purple { fill: #cba6f7; }
+.inkflow-stroke-purple { stroke: #cba6f7; }
+.inkflow-fill-pink { fill: #f5c2e7; }
+.inkflow-stroke-pink { stroke: #f5c2e7; }
+.inkflow-fill-grey { fill: #6c7086; }
+.inkflow-stroke-grey { stroke: #6c7086; }</style>
+  </defs>
+  <g inkscape:groupmode="layer" inkscape:label="__inkflow:layout:base__" sodipodi:insensitive="true" inkflow:layout-src="./base" inkflow:layout-hash="0e0184e9" id="g2">
+    <defs id="defs2"/>
+    <rect width="1920" height="1080" class="inkflow-fill-bg" id="rect2"/>
+  </g>
+  <g inkscape:groupmode="layer" inkscape:label="__inkflow:layout:numbered__" sodipodi:insensitive="true" inkflow:layout-src="./numbered" inkflow:layout-hash="6a4a92fb" id="g3">
+    <defs id="defs3"/>
+    <text id="zone-slide-number" x="1812.359" y="1034.4382" class="inkflow-fill-text-muted inkflow-fill-text inkflow-fill-code-text" text-anchor="end" font-size="39.6642px" font-family="sans-serif" style="stroke-width: 1.41658">99</text>
+    <text id="zone-slide-total" x="1831.1567" y="1034.5802" class="inkflow-fill-text-muted inkflow-fill-grey" font-size="29.6395px" font-family="sans-serif" style="stroke-width: 1.05855">99</text>
+    <text id="text1" x="1816.5184" y="1032.2501" class="inkflow-fill-text-muted inkflow-fill-grey" font-size="29.6395px" font-family="sans-serif" style="stroke-width: 1.05855">/</text>
+  </g>
+  <g inkscape:groupmode="layer" inkscape:label="__inkflow:layout:title__" sodipodi:insensitive="true" inkflow:layout-src="./title" inkflow:layout-hash="55fe2bf2" id="g4">
+    <defs id="defs4"/>
+    <rect id="zone-title" x="80" y="60" width="1760" height="120"/>
+  </g>
+  <g inkscape:groupmode="layer" inkscape:label="__inkflow:layout:two-cols__" inkflow:layout-src="two-cols" inkflow:layout-hash="e746abcd" id="g5" sodipodi:insensitive="true">
+    <defs id="defs5"/>
+    <rect id="zone-left" x="80" y="220" width="840" height="740"/>
+    <rect id="zone-right" x="1000" y="220" width="840" height="740"/>
+  </g>
+  <g id="g1" inkscape:label="main">
+    <image width="840.0000004" height="731.865672" preserveAspectRatio="none" xlink:href="../assets/thesis-compiling.jpg" id="speed" x="999.9999996" y="224.067164"/>
+    <image width="799.4663278" height="734.8036102" preserveAspectRatio="none" xlink:href="../assets/consistent-language.jpg" id="consistent" x="1020.266837" y="222.5981949"/>
+    <image width="596.9246841" height="733.023512" preserveAspectRatio="none" xlink:href="../assets/apt-install-texlive.jpg" id="ctan" x="1121.537658" y="223.488244"/>
+    <image width="840" height="408.8702929" preserveAspectRatio="none" xlink:href="../assets/overfull-box.jpg" id="errors" x="1000" y="385.5648535"/>
+  </g>
+</svg>
