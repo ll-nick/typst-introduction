@@ -11,8 +11,9 @@
 ) <fig:curve>
 
 #let month = (
-  (activity: [Rewriting dotfiles], hours: 41, pages: 0),
-  (activity: [Migrating LaTeX $arrow.r$ Typst], hours: 27, pages: 0.5),
+  (activity: [Rewriting dotfiles], hours: 23, pages: 0),
+  (activity: [Implementing a Typst dissertation template], hours: 27, pages: 0.5),
+  (activity: [Building a presentation tool], hours: 47, pages: 0),
   (activity: [Actual writing], hours: 3, pages: 1.5),
 )
 
