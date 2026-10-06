@@ -48,7 +48,7 @@ def main() -> Deck:
                 md="kinetic-kit-ksp",
             ),
             Slide("kinetic-kit-customizable", md="kinetic-kit-customizable"),
-            Slide("content", md="kinetic-kit-start"),
+            Slide("kinetic-kit-start", md="kinetic-kit-start"),
             Slide("end", md="end"),
         ],
     )

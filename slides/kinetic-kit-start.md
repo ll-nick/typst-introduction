@@ -1,6 +1,6 @@
 # Where to start
 
-**Start** — from the CLI or the web app's template gallery.
+**Start** — from the CLI or the web app.
 
 ```bash
 typst init @preview/kinetic-kit:0.2.1
@@ -8,7 +8,7 @@ typst init @preview/kinetic-kit:0.2.1
 
 **Help along the way**
 
-- Examples for every variant, with rendered PDFs
+- Examples for every variant
 - A cookbook for common extras: glossary, margin notes, custom title page
 - A full API reference generated from the source
 - Every variant compiled and regression-tested in CI
