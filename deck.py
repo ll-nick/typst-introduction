@@ -36,12 +36,7 @@ def main() -> Deck:
             Slide("content", md="universe"),
             Slide("content", md="templates", font_size=34),
             # kinetic-kit
-            Slide(
-                "center",
-                zones={
-                    "content": Image("assets/distracted-me.jpg", fit=MediaFit.CONTAIN)
-                },
-            ),
+            Slide("distracted"),
             Slide("section", md="section-kinetickit"),
             Slide(
                 "kinetic-kit-ksp",
