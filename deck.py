@@ -43,7 +43,25 @@ def main() -> Deck:
                 },
             ),
             Slide("section", md="section-kinetickit"),
-            Slide("content", md="kinetic-kit", font_size=31),
+            Slide(
+                "media-right",
+                md="kinetic-kit-ksp",
+                zones={
+                    "media": Image(
+                        "assets/kinetic-kit-spread.png", fit=MediaFit.CONTAIN
+                    )
+                },
+            ),
+            Slide(
+                "media-right",
+                md="kinetic-kit-customizable",
+                zones={
+                    "media": Image(
+                        "assets/kinetic-kit-formats.png", fit=MediaFit.CONTAIN
+                    )
+                },
+            ),
+            Slide("content", md="kinetic-kit-start"),
             Slide("end", md="end"),
         ],
     )
