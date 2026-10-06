@@ -161,7 +161,7 @@ wheels = [
 [[package]]
 name = "inkflow"
 version = "0.7.0"
-source = { git = "https://github.com/ll-nick/inkflow#6aedaaa1857800001b379e69b7749af36305596e" }
+source = { git = "https://github.com/ll-nick/inkflow#fdf6af15a6000d4754ec3a7fc9e928fe44df76c2" }
 dependencies = [
     { name = "brotli" },
     { name = "click" },
