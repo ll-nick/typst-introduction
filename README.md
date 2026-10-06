@@ -1,6 +1,7 @@
-# Typst:<br>life after `\makeatletter`
+# Typst: Life after `\makeatletter`
 
-A talk that introduces [Typst](https://typst.app), a modern typesetting system and LaTeX alternative.
+A talk that introduces [Typst](https://typst.app), a modern typesetting system and LaTeX alternative,
+and [kinetic-kit](https://github.com/ll-nick/kinetic-kit), a template for doctoral theses at Karlsruhe Institute of Technology (KIT).
 
 ---
 
