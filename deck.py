@@ -44,13 +44,8 @@ def main() -> Deck:
             ),
             Slide("section", md="section-kinetickit"),
             Slide(
-                "media-right",
+                "kinetic-kit-ksp",
                 md="kinetic-kit-ksp",
-                zones={
-                    "media": Image(
-                        "assets/kinetic-kit-spread.png", fit=MediaFit.CONTAIN
-                    )
-                },
             ),
             Slide(
                 "media-right",

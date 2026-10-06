@@ -1,0 +1,97 @@
+<svg xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" xmlns:inkflow="urn:inkflow" inkflow:parent="numbered" viewBox="0 0 1920 1080" width="1920" height="1080" version="2.0" id="svg2" standalone="no">
+  <g inkscape:groupmode="layer" inkscape:label="__inkflow:layout:base__" sodipodi:insensitive="true" inkflow:layout-src="./base" inkflow:layout-hash="0e0184e9" id="g1">
+    <defs id="defs1"/>
+    <rect width="1920" height="1080" class="inkflow-fill-bg" id="rect1"/>
+  </g>
+  <g inkscape:groupmode="layer" inkscape:label="__inkflow:layout:numbered__" sodipodi:insensitive="true" inkflow:layout-src="./numbered" inkflow:layout-hash="6a4a92fb" id="g2">
+    <defs id="defs2"/>
+    <text id="zone-slide-number" x="1812.359" y="1034.4382" class="inkflow-fill-text-muted inkflow-fill-text inkflow-fill-code-text" text-anchor="end" font-size="39.6642px" font-family="sans-serif" style="stroke-width: 1.41658">99</text>
+    <text id="zone-slide-total" x="1831.1567" y="1034.5802" class="inkflow-fill-text-muted inkflow-fill-grey" font-size="29.6395px" font-family="sans-serif" style="stroke-width: 1.05855">99</text>
+    <text id="text1" x="1816.5184" y="1032.2501" class="inkflow-fill-text-muted inkflow-fill-grey" font-size="29.6395px" font-family="sans-serif" style="stroke-width: 1.05855">/</text>
+  </g>
+  <defs id="defs3">
+    <style id="inkflow-preview">.inkflow-fill-bg { fill: #1e1e2e; }
+.inkflow-stroke-bg { stroke: #1e1e2e; }
+.inkflow-fill-surface { fill: #313244; }
+.inkflow-stroke-surface { stroke: #313244; }
+.inkflow-fill-border { fill: #585b70; }
+.inkflow-stroke-border { stroke: #585b70; }
+.inkflow-fill-text { fill: #cdd6f4; }
+.inkflow-stroke-text { stroke: #cdd6f4; }
+.inkflow-fill-text-muted { fill: #a6adc8; }
+.inkflow-stroke-text-muted { stroke: #a6adc8; }
+.inkflow-fill-accent { fill: #cba6f7; }
+.inkflow-stroke-accent { stroke: #cba6f7; }
+.inkflow-fill-accent-fg { fill: #11111b; }
+.inkflow-stroke-accent-fg { stroke: #11111b; }
+.inkflow-fill-code-bg { fill: #181825; }
+.inkflow-stroke-code-bg { stroke: #181825; }
+.inkflow-fill-code-text { fill: #cdd6f4; }
+.inkflow-stroke-code-text { stroke: #cdd6f4; }
+.inkflow-fill-red { fill: #f38ba8; }
+.inkflow-stroke-red { stroke: #f38ba8; }
+.inkflow-fill-orange { fill: #fab387; }
+.inkflow-stroke-orange { stroke: #fab387; }
+.inkflow-fill-yellow { fill: #f9e2af; }
+.inkflow-stroke-yellow { stroke: #f9e2af; }
+.inkflow-fill-green { fill: #a6e3a1; }
+.inkflow-stroke-green { stroke: #a6e3a1; }
+.inkflow-fill-teal { fill: #94e2d5; }
+.inkflow-stroke-teal { stroke: #94e2d5; }
+.inkflow-fill-blue { fill: #89b4fa; }
+.inkflow-stroke-blue { stroke: #89b4fa; }
+.inkflow-fill-purple { fill: #cba6f7; }
+.inkflow-stroke-purple { stroke: #cba6f7; }
+.inkflow-fill-pink { fill: #f5c2e7; }
+.inkflow-stroke-pink { stroke: #f5c2e7; }
+.inkflow-fill-grey { fill: #6c7086; }
+.inkflow-stroke-grey { stroke: #6c7086; }</style>
+    <clipPath clipPathUnits="userSpaceOnUse" id="clipPath5">
+      <rect style="fill:#fab387;stroke:none;stroke-width:12" id="rect6" width="922.9060158" height="655.0626394" x="963.6160773" y="212.4686803" rx="40" ry="40" clip-path="none"/>
+    </clipPath>
+    <marker style="overflow:visible" id="ConcaveTriangle" refX="0" refY="0" orient="auto-start-reverse" markerWidth="1" markerHeight="1" viewBox="0 0 1 1" preserveAspectRatio="xMidYMid">
+      <path transform="scale(0.7)" d="M -2,-4 9,0 -2,4 c 2,-2.33 2,-5.66 0,-8 z" style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.5" id="path8"/>
+    </marker>
+  </defs>
+  <g id="g9" inkscape:label="main">
+    <rect id="zone-title" x="80" y="60" width="911.4765312" height="120" style="stroke-width:0.719643"/>
+    <g id="g3" transform="matrix(1.091574335,0,0,1.091574335,-92.33371257,-58.45499663)">
+      <g id="g6" transform="matrix(0.9876157654,0,0,0.9876157654,-415.9441642,103.2123917)">
+        <rect style="fill:#fab387;stroke:#fab387;stroke-width:8;stroke-dasharray:none" id="rect4" width="922.9060158" height="655.0626394" x="963.6160773" y="212.4686803" rx="40" ry="40" clip-path="none"/>
+        <image width="922.9060158" height="655.0626394" preserveAspectRatio="none" xlink:href="../assets/kinetic-kit-spread.png" id="image1" x="963.6160773" y="212.4686803" clip-path="url(#clipPath5)" style="stroke:none;stroke-width:50;stroke-dasharray:none;stroke-opacity:1"/>
+      </g>
+      <g id="g8">
+        <text xml:space="preserve" x="331.6046803" y="291.2141912" id="text6" style="font-weight:bold;font-size:29.5735px;line-height:1.25;font-family:'Nimbus Sans';-inkscape-font-specification:'Nimbus Sans';direction:ltr;fill:#cdd6f4;stroke:none;stroke-width:2.7966"><tspan id="tspan6" x="331.6046803" y="291.2141912" style="stroke-width:2.7966">Running</tspan><tspan x="331.6046803" y="328.1810662" style="stroke-width:2.7966" id="tspan33">header</tspan><tspan x="331.6046803" y="365.1479412" style="stroke-width:2.7966" id="tspan7"></tspan></text>
+        <path style="fill:none;stroke:#89b4fa;stroke-width:2.71024;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:8.13072, 5.42048;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#ConcaveTriangle)" d="m 468.7820482,303.2034055 c 0,0 58.1583963,6.68563 89.0478686,35.2712092" id="path7"/>
+      </g>
+      <g id="g10" transform="translate(156.2855927,702.5640739)">
+        <text xml:space="preserve" x="263.8234321" y="303.7682824" id="text10" style="font-weight:bold;font-size:29.5735px;line-height:1.25;font-family:'Nimbus Sans';-inkscape-font-specification:'Nimbus Sans';direction:ltr;fill:#cdd6f4;stroke:none;stroke-width:2.7966"><tspan x="263.8234321" y="303.7682824" style="stroke-width:2.7966" id="tspan10">Draft marker</tspan></text>
+        <path style="fill:none;stroke:#89b4fa;stroke-width:2.71024;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:8.13072, 5.42048;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#ConcaveTriangle)" d="m 463.6220798,294.1608995 c 0,0 58.1583963,-6.68563 89.0478686,-35.2712092" id="path10"/>
+      </g>
+      <g id="g11" transform="translate(1235.812937,322.0728727)">
+        <text xml:space="preserve" x="260.1404594" y="347.1849586" id="text11" style="font-weight:bold;font-size:29.5735px;line-height:1.25;font-family:'Nimbus Sans';-inkscape-font-specification:'Nimbus Sans';direction:ltr;fill:#cdd6f4;stroke:none;stroke-width:2.7966"><tspan x="260.1404594" y="347.1849586" style="stroke-width:2.7966" id="tspan11">Automatic</tspan><tspan x="260.1404594" y="384.1518336" style="stroke-width:2.7966" id="tspan12">caption</tspan><tspan x="260.1404594" y="421.1187086" style="stroke-width:2.7966" id="tspan8">placement</tspan></text>
+        <path style="fill:none;stroke:#89b4fa;stroke-width:2.71024;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:8.13072, 5.42048;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#ConcaveTriangle)" d="m 240.8171069,347.0009692 c 0,0 -101.3556214,-97.8871312 -225.39668957,-37.581411" id="path11"/>
+      </g>
+      <g id="g16" transform="translate(1256.954136,112.6529721)">
+        <text xml:space="preserve" x="253.7134549" y="263.869676" id="text16" style="font-weight:bold;font-size:29.5735px;line-height:1.25;font-family:'Nimbus Sans';-inkscape-font-specification:'Nimbus Sans';direction:ltr;fill:#cdd6f4;stroke:none;stroke-width:2.7966"><tspan x="253.7134549" y="263.869676" style="stroke-width:2.7966" id="tspan16">Consistent</tspan><tspan x="253.7134549" y="300.836551" style="stroke-width:2.7966" id="tspan18">vertical</tspan><tspan x="253.7134549" y="337.803426" style="stroke-width:2.7966" id="tspan19">spacing</tspan></text>
+        <path style="fill:none;stroke:#89b4fa;stroke-width:2.71024;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:8.13072, 5.42048;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#ConcaveTriangle)" d="m 239.301015,291.0348789 c 0,0 -193.45429636,-22.8392899 -249.84294846,1.3172954" id="path16"/>
+      </g>
+      <g id="g22" transform="translate(1315.387167,605.2999897)">
+        <text xml:space="preserve" x="242.146168" y="263.869676" id="text22" style="font-weight:bold;font-size:29.5735px;line-height:1.25;font-family:'Nimbus Sans';-inkscape-font-specification:'Nimbus Sans';direction:ltr;fill:#cdd6f4;stroke:none;stroke-width:2.7966"><tspan x="242.146168" y="263.869676" style="stroke-width:2.7966" id="tspan22">Automatic</tspan><tspan x="242.146168" y="300.836551" style="stroke-width:2.7966" id="tspan24">reference</tspan><tspan x="242.146168" y="337.803426" style="stroke-width:2.7966" id="tspan25">labels</tspan></text>
+        <path style="fill:none;stroke:#89b4fa;stroke-width:2.71024;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:8.13072, 5.42048;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#ConcaveTriangle)" d="m 216.5439083,297.9297338 c 0,0 -113.5677983,8.5551049 -160.25421485,-26.9160486" id="path22"/>
+      </g>
+      <g id="g27" transform="translate(1.729017733,229.0765569)">
+        <text xml:space="preserve" x="315.5276498" y="319.548981" id="text27" style="font-weight:bold;font-size:29.5735px;line-height:1.25;font-family:'Nimbus Sans';-inkscape-font-specification:'Nimbus Sans';direction:ltr;fill:#cdd6f4;stroke:none;stroke-width:2.7966"><tspan x="315.5276498" y="319.548981" style="stroke-width:2.7966" id="tspan27">Consistent</tspan><tspan x="315.5276498" y="356.515856" style="stroke-width:2.7966" id="tspan28">horizontal</tspan><tspan x="315.5276498" y="393.482731" style="stroke-width:2.7966" id="tspan29">spacing</tspan></text>
+        <path style="fill:none;stroke:#89b4fa;stroke-width:2.71024;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:8.13072, 5.42048;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#ConcaveTriangle)" d="m 487.1392405,336.074305 c 0,0 73.3592651,-11.1999463 104.2487374,-39.7855255" id="path27"/>
+      </g>
+      <g id="g30" transform="translate(-30.3996381,582.0466563)">
+        <text xml:space="preserve" x="334.3933643" y="254.9835274" id="text30" style="font-weight:bold;font-size:29.5735px;line-height:1.25;font-family:'Nimbus Sans';-inkscape-font-specification:'Nimbus Sans';direction:ltr;fill:#cdd6f4;stroke:none;stroke-width:2.7966"><tspan x="334.3933643" y="254.9835274" style="stroke-width:2.7966" id="tspan30">Automatic</tspan><tspan x="334.3933643" y="291.9504024" style="stroke-width:2.7966" id="tspan32">numbering</tspan><tspan x="334.3933643" y="328.9172774" style="stroke-width:2.7966" id="tspan31">style</tspan></text>
+        <path style="fill:none;stroke:#89b4fa;stroke-width:2.71024;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:8.13072, 5.42048;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#ConcaveTriangle)" d="m 504.3628606,278.5508881 c 0,0 58.1583963,6.68563 89.0478686,35.2712092" id="path30"/>
+      </g>
+      <g id="g5" transform="translate(1248.282239,249.0667295)">
+        <text xml:space="preserve" x="296.2097644" y="270.6141565" id="text5" style="font-weight:bold;font-size:29.5735px;line-height:1.25;font-family:'Nimbus Sans';-inkscape-font-specification:'Nimbus Sans';direction:ltr;fill:#cdd6f4;stroke:none;stroke-width:2.7966"><tspan x="296.2097644" y="270.6141565" style="stroke-width:2.7966" id="tspan3">Automatic</tspan><tspan x="296.2097644" y="307.5810315" style="stroke-width:2.7966" id="tspan4">per-chapter</tspan><tspan x="296.2097644" y="344.5479065" style="stroke-width:2.7966" id="tspan5">numbering</tspan></text>
+        <path style="fill:none;stroke:#89b4fa;stroke-width:2.71024;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:8.13072, 5.42048;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#ConcaveTriangle)" d="m 279.0216166,301.053821 c 0,0 -211.07908437,8.9372352 -263.75162518,-13.9179409" id="path5"/>
+      </g>
+    </g>
+  </g>
+</svg>
