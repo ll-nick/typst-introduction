@@ -1,0 +1,77 @@
+<svg xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" xmlns:inkflow="urn:inkflow" inkflow:parent="numbered" viewBox="0 0 1920 1080" width="1920" height="1080" version="2.0" id="svg2" standalone="no">
+  <g inkscape:groupmode="layer" inkscape:label="__inkflow:layout:base__" sodipodi:insensitive="true" inkflow:layout-src="./base" inkflow:layout-hash="0e0184e9" id="g1">
+    <defs id="defs1"/>
+    <rect width="1920" height="1080" class="inkflow-fill-bg" id="rect1"/>
+  </g>
+  <g inkscape:groupmode="layer" inkscape:label="__inkflow:layout:numbered__" sodipodi:insensitive="true" inkflow:layout-src="./numbered" inkflow:layout-hash="6a4a92fb" id="g2">
+    <defs id="defs2"/>
+    <text id="zone-slide-number" x="1812.359" y="1034.4382" class="inkflow-fill-text-muted inkflow-fill-text inkflow-fill-code-text" text-anchor="end" font-size="39.6642px" font-family="sans-serif" style="stroke-width: 1.41658">99</text>
+    <text id="zone-slide-total" x="1831.1567" y="1034.5802" class="inkflow-fill-text-muted inkflow-fill-grey" font-size="29.6395px" font-family="sans-serif" style="stroke-width: 1.05855">99</text>
+    <text id="text1" x="1816.5184" y="1032.2501" class="inkflow-fill-text-muted inkflow-fill-grey" font-size="29.6395px" font-family="sans-serif" style="stroke-width: 1.05855">/</text>
+  </g>
+  <defs id="defs3">
+    <style id="inkflow-preview">.inkflow-fill-bg { fill: #1e1e2e; }
+.inkflow-stroke-bg { stroke: #1e1e2e; }
+.inkflow-fill-surface { fill: #313244; }
+.inkflow-stroke-surface { stroke: #313244; }
+.inkflow-fill-border { fill: #585b70; }
+.inkflow-stroke-border { stroke: #585b70; }
+.inkflow-fill-text { fill: #cdd6f4; }
+.inkflow-stroke-text { stroke: #cdd6f4; }
+.inkflow-fill-text-muted { fill: #a6adc8; }
+.inkflow-stroke-text-muted { stroke: #a6adc8; }
+.inkflow-fill-accent { fill: #cba6f7; }
+.inkflow-stroke-accent { stroke: #cba6f7; }
+.inkflow-fill-accent-fg { fill: #11111b; }
+.inkflow-stroke-accent-fg { stroke: #11111b; }
+.inkflow-fill-code-bg { fill: #181825; }
+.inkflow-stroke-code-bg { stroke: #181825; }
+.inkflow-fill-code-text { fill: #cdd6f4; }
+.inkflow-stroke-code-text { stroke: #cdd6f4; }
+.inkflow-fill-red { fill: #f38ba8; }
+.inkflow-stroke-red { stroke: #f38ba8; }
+.inkflow-fill-orange { fill: #fab387; }
+.inkflow-stroke-orange { stroke: #fab387; }
+.inkflow-fill-yellow { fill: #f9e2af; }
+.inkflow-stroke-yellow { stroke: #f9e2af; }
+.inkflow-fill-green { fill: #a6e3a1; }
+.inkflow-stroke-green { stroke: #a6e3a1; }
+.inkflow-fill-teal { fill: #94e2d5; }
+.inkflow-stroke-teal { stroke: #94e2d5; }
+.inkflow-fill-blue { fill: #89b4fa; }
+.inkflow-stroke-blue { stroke: #89b4fa; }
+.inkflow-fill-purple { fill: #cba6f7; }
+.inkflow-stroke-purple { stroke: #cba6f7; }
+.inkflow-fill-pink { fill: #f5c2e7; }
+.inkflow-stroke-pink { stroke: #f5c2e7; }
+.inkflow-fill-grey { fill: #6c7086; }
+.inkflow-stroke-grey { stroke: #6c7086; }</style>
+    <clipPath clipPathUnits="userSpaceOnUse" id="clipPath6">
+      <rect style="fill:#fab387;fill-opacity:1;stroke:none;stroke-width:25.6313" id="rect6" width="993" height="1404" x="471.3803293" y="220.9566999" rx="85.4377884" ry="85.4377884"/>
+    </clipPath>
+    <clipPath clipPathUnits="userSpaceOnUse" id="clipPath8">
+      <rect style="fill:#fab387;stroke:#89b4fa;stroke-width:10.6797" id="rect9" width="804" height="1134" x="1044.506878" y="147.5294664" rx="85.4377884" ry="85.4377884"/>
+    </clipPath>
+    <clipPath clipPathUnits="userSpaceOnUse" id="clipPath11">
+      <rect style="fill:#fab387;stroke:#89b4fa;stroke-width:10.6797" id="rect12" width="700" height="993" x="1509.176942" y="88.45763509" rx="85.4377884" ry="85.4377884"/>
+    </clipPath>
+  </defs>
+  <g id="g3" inkscape:label="main">
+    <rect id="zone-title" x="80" y="60" width="840" height="120" style="stroke-width:0.69085"/>
+    <rect id="zone-content" x="80" y="220" width="840" height="740"/>
+    <g id="g4" inkscape:label="pages" transform="matrix(0.4681769127,0,0,0.4681769127,832.0587807,215.7764374)">
+      <g id="g6" transform="translate(34.1169126,-35.33631835)">
+        <rect style="fill:#fab387;fill-opacity:1;stroke:#89b4fa;stroke-width:10.6797;stroke-dasharray:none" id="rect5" width="993" height="1404" x="471.3803294" y="220.9566999" rx="85.4377884" ry="85.4377884"/>
+        <image width="993" height="1404" preserveAspectRatio="none" xlink:href="../assets/kinetic-kit-format-a4.png" id="image1-6" x="471.3803292" y="220.9567" clip-path="url(#clipPath6)"/>
+      </g>
+      <g id="g12" transform="translate(51.99036422,-15.69134937)">
+        <rect style="fill:#fab387;stroke:#89b4fa;stroke-width:5" id="rect7" width="376.4142378" height="530.912619" x="1321.072786" y="284.8463275" rx="40" ry="40" transform="matrix(2.13594471,0,0,2.13594471,-1777.231551,-460.88654)"/>
+        <image width="804" height="1134" preserveAspectRatio="none" xlink:href="../assets/kinetic-kit-format-17x24.png" id="image1" x="1044.506877" y="147.5294664" clip-path="url(#clipPath8)"/>
+      </g>
+      <g id="g13" transform="translate(41.3203,-10.01814761)">
+        <rect style="fill:#fab387;stroke:#89b4fa;stroke-width:10.6797" id="rect10" width="700" height="993" x="1509.176942" y="88.4576351" rx="85.4377884" ry="85.4377884"/>
+        <image width="700" height="993" preserveAspectRatio="none" xlink:href="../assets/kinetic-kit-format-a5.png" id="image1-1" x="1509.176941" y="88.4576351" clip-path="url(#clipPath11)"/>
+      </g>
+    </g>
+  </g>
+</svg>

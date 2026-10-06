@@ -47,15 +47,7 @@ def main() -> Deck:
                 "kinetic-kit-ksp",
                 md="kinetic-kit-ksp",
             ),
-            Slide(
-                "media-right",
-                md="kinetic-kit-customizable",
-                zones={
-                    "media": Image(
-                        "assets/kinetic-kit-formats.png", fit=MediaFit.CONTAIN
-                    )
-                },
-            ),
+            Slide("kinetic-kit-customizable", md="kinetic-kit-customizable"),
             Slide("content", md="kinetic-kit-start"),
             Slide("end", md="end"),
         ],

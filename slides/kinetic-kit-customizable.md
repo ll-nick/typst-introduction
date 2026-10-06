@@ -15,7 +15,7 @@
 
 ::notes::
 
-The image shows the same chapter opening in A5 (KSP's recommendation), 17×24 cm and A4,
+The images show the same chapter opening in A5 (KSP's recommendation), 17×24 cm and A4,
 at their true relative size.
 Font sizes and margins follow from `format`.
 
