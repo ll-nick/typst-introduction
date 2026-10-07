@@ -3,18 +3,15 @@ name = "typst-introduction"
 version = "0.1.0"
 requires-python = ">=3.11"
 dependencies = [
-    "inkflow",
+  "inkflow",
 ]
-
-[tool.uv.sources]
-inkflow = { git = "https://github.com/ll-nick/inkflow" }
 
 [dependency-groups]
 dev = [
-    "basedpyright>=1.39.9",
-    "pyyaml>=6.0.3",
-    "ruff>=0.15.21",
-    "types-pyyaml>=6.0.12.20260906",
+  "basedpyright>=1.39.9",
+  "pyyaml>=6.0.3",
+  "ruff>=0.15.21",
+  "types-pyyaml>=6.0.12.20260906",
 ]
 
 [tool.pyright]
@@ -23,3 +20,6 @@ reportMissingTypeStubs = "none"
 
 [tool.ruff.lint]
 select = ["E", "F", "I", "UP", "B", "SIM", "RUF"]
+
+[tool.uv.sources]
+inkflow = { git = "https://github.com/ll-nick/inkflow" }
