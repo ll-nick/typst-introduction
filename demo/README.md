@@ -10,7 +10,7 @@ About 30 minutes.
 - VS Code with *Tinymist Typst* and *Demo Time*.
 - Keybinding (not presentation mode, its <kbd>→</kbd> fires while typing):
   `{ "key": "ctrl+alt+n", "command": "demo-time.start" }`
-- `mise run paper` checks every scene and caches `charged-ieee`.
+- `mise run demo-check` checks every scene and caches `charged-ieee`.
 - `code demo`, light theme, zoomed in, AI completions and notifications off.
 - Reset after a dry run: *Demo Time: Reset*.
 
@@ -126,4 +126,5 @@ Afterwards, flip through the crash-course slides as a recap.
 
 `.demo/paper.yaml` lists which lesson files make up each scene and what to highlight.
 Lesson paths resolve from `demo/`, since they are pasted into `main.typ`.
-`mise run paper` replays every scene and compiles the result.
+`mise run demo-check` replays every scene and compiles the result after each one;
+`mise run paper` replays the full act once and builds the final `demo/paper.pdf`.

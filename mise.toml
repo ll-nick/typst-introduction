@@ -19,11 +19,15 @@ run = "uv run inkflow build"
 run = "uv run inkflow serve"
 
 [tasks.paper]
-description = "Compile the demo paper after every Demo Time scene"
-run = "uv run python demo/check_act.py"
+description = "Build the final demo paper PDF from the lesson files"
+run = "uv run python demo/act.py build"
+
+[tasks.demo-check]
+description = "Replay the Demo Time act and compile the paper as it stands after every scene"
+run = "uv run python demo/act.py check"
 
 [tasks.fix]
 run = ["uv run ruff check --fix", "uv run ruff format"]
 
 [tasks.check]
-depends = ["lint", "fmt", "typecheck", "build"]
+depends = ["lint", "fmt", "typecheck", "build", "demo-check"]

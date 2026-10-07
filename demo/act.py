@@ -1,16 +1,19 @@
-"""Replay the Demo Time act and compile the paper as it stands after every scene."""
+"""Replay the Demo Time act: check every scene, or build the final paper."""
 
+import argparse
 import subprocess
 import sys
 import tempfile
 from dataclasses import dataclass
 from pathlib import Path
-from typing import Required, TypedDict, cast
+from typing import Literal, Required, TypedDict, cast
 
 import yaml
 
 DEMO_DIRECTORY = Path(__file__).parent
 ACT_FILE = DEMO_DIRECTORY / ".demo" / "paper.yaml"
+MAIN_TYP = DEMO_DIRECTORY / "main.typ"
+PAPER_PDF = DEMO_DIRECTORY / "paper.pdf"
 
 
 class Move(TypedDict, total=False):
@@ -35,6 +38,11 @@ class ActError(Exception):
 class SceneFailure:
     title: str
     reason: str
+
+
+def load_scenes() -> list[Scene]:
+    act = cast("dict[str, list[Scene]]", yaml.safe_load(ACT_FILE.read_text()))
+    return act["scenes"]
 
 
 def read_content(move: Move) -> str:
@@ -91,12 +99,12 @@ def compile_paper(paper: str, output_path: Path) -> None:
         raise ActError(result.stderr)
 
 
-def main() -> int:
-    act = cast("dict[str, list[Scene]]", yaml.safe_load(ACT_FILE.read_text()))
+def check(scenes: list[Scene]) -> int:
+    """Compile the paper as it stands after every scene, reporting every failure."""
     failures: list[SceneFailure] = []
     paper = ""
     with tempfile.TemporaryDirectory() as output_directory:
-        for scene in act["scenes"]:
+        for scene in scenes:
             try:
                 for move in scene["moves"]:
                     paper = apply_move(paper, move)
@@ -107,6 +115,34 @@ def main() -> int:
     for failure in failures:
         print(f"Scene {failure.title!r}: {failure.reason}", file=sys.stderr)
     return 1 if failures else 0
+
+
+def build(scenes: list[Scene]) -> int:
+    """Write the fully assembled paper to main.typ, compile it, then restore it."""
+    # main.typ is checked in empty; restoring it avoids committing the assembled file.
+    original_main_typ = MAIN_TYP.read_text()
+    paper = ""
+    try:
+        for scene in scenes:
+            for move in scene["moves"]:
+                paper = apply_move(paper, move)
+        MAIN_TYP.write_text(paper)
+        compile_paper(paper, PAPER_PDF)
+    except ActError as error:
+        print(error, file=sys.stderr)
+        return 1
+    finally:
+        MAIN_TYP.write_text(original_main_typ)
+    return 0
+
+
+def main() -> int:
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("command", choices=["check", "build"])
+    args = parser.parse_args()
+    command = cast("Literal['check', 'build']", args.command)
+    scenes = load_scenes()
+    return check(scenes) if command == "check" else build(scenes)
 
 
 if __name__ == "__main__":
