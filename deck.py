@@ -1,4 +1,4 @@
-from inkflow import Deck, Image, MediaFit, Slide, Trigger, animations, transitions
+from inkflow import Deck, Slide, Trigger, animations, transitions
 
 
 def show_and_hide(id: str, show_at: int) -> list[animations.Animation]:
