@@ -1,16 +1,13 @@
 <svg xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" xmlns:inkflow="urn:inkflow" inkflow:parent="numbered" viewBox="0 0 1920 1080" width="1920" height="1080" version="2.0" id="svg2" standalone="no">
-  <g inkscape:groupmode="layer" inkscape:label="__inkflow:layout:base__" sodipodi:insensitive="true" inkflow:layout-src="./base" inkflow:layout-hash="0e0184e9" id="g1">
-    <defs id="defs1"/>
-    <rect width="1920" height="1080" class="inkflow-fill-bg" id="rect1"/>
-  </g>
-  <g inkscape:groupmode="layer" inkscape:label="__inkflow:layout:numbered__" sodipodi:insensitive="true" inkflow:layout-src="./numbered" inkflow:layout-hash="6a4a92fb" id="g2">
-    <defs id="defs2"/>
-    <text id="zone-slide-number" x="1812.359" y="1034.4382" class="inkflow-fill-text-muted inkflow-fill-text inkflow-fill-code-text" text-anchor="end" font-size="39.6642px" font-family="sans-serif" style="stroke-width: 1.41658">99</text>
-    <text id="zone-slide-total" x="1831.1567" y="1034.5802" class="inkflow-fill-text-muted inkflow-fill-grey" font-size="29.6395px" font-family="sans-serif" style="stroke-width: 1.05855">99</text>
-    <text id="text1" x="1816.5184" y="1032.2501" class="inkflow-fill-text-muted inkflow-fill-grey" font-size="29.6395px" font-family="sans-serif" style="stroke-width: 1.05855">/</text>
-  </g>
-  <defs id="defs3">
-    <style id="inkflow-preview">.inkflow-fill-bg { fill: #1e1e2e; }
+  <g inkscape:groupmode="layer" inkscape:label="__inkflow:layout:base__" sodipodi:insensitive="true" inkflow:layout-src="./base" inkflow:layout-hash="0e0184e9"><defs/><rect width="1920" height="1080" class="inkflow-fill-bg"/>
+</g><g inkscape:groupmode="layer" inkscape:label="__inkflow:layout:numbered__" sodipodi:insensitive="true" inkflow:layout-src="numbered" inkflow:layout-hash="6a4a92fb"><defs/><text id="zone-slide-number" x="1812.359" y="1034.4382" class="inkflow-fill-text-muted inkflow-fill-text inkflow-fill-code-text" text-anchor="end" font-size="39.6642px" font-family="sans-serif" style="stroke-width: 1.41658">99</text>
+  <text id="zone-slide-total" x="1831.1567" y="1034.5802" class="inkflow-fill-text-muted inkflow-fill-grey" font-size="29.6395px" font-family="sans-serif" style="stroke-width: 1.05855">99</text>
+  <text id="text1" x="1816.5184" y="1032.2501" class="inkflow-fill-text-muted inkflow-fill-grey" font-size="29.6395px" font-family="sans-serif" style="stroke-width: 1.05855">/</text>
+</g><defs id="defs3">
+    <clipPath clipPathUnits="userSpaceOnUse" id="clipPath4">
+      <rect style="stroke-width: 5" id="rect5" width="568.2281769" height="803.7805252" x="1173.143505" y="121.1791155" rx="40" ry="40" class="inkflow-fill-orange inkflow-stroke-blue"/>
+    </clipPath>
+  <style id="inkflow-preview">.inkflow-fill-bg { fill: #1e1e2e; }
 .inkflow-stroke-bg { stroke: #1e1e2e; }
 .inkflow-fill-surface { fill: #313244; }
 .inkflow-stroke-surface { stroke: #313244; }
@@ -45,15 +42,11 @@
 .inkflow-fill-pink { fill: #f5c2e7; }
 .inkflow-stroke-pink { stroke: #f5c2e7; }
 .inkflow-fill-grey { fill: #6c7086; }
-.inkflow-stroke-grey { stroke: #6c7086; }</style>
-    <clipPath clipPathUnits="userSpaceOnUse" id="clipPath4">
-      <rect style="fill:#fab387;stroke:#89b4fa;stroke-width:5" id="rect5" width="568.2281769" height="803.7805252" x="1173.143505" y="121.1791155" rx="40" ry="40"/>
-    </clipPath>
-  </defs>
+.inkflow-stroke-grey { stroke: #6c7086; }</style></defs>
   <rect id="zone-title" x="80" y="60" width="900.8972762" height="120" style="stroke-width:0.715454"/>
   <rect id="zone-content" x="80" y="220" width="900.8972762" height="740" style="stroke-width:1.03561"/>
   <g id="g5" transform="matrix(1.204561189,0,0,1.204561189,-363.7049019,-82.34711159)">
-    <rect style="fill:#fab387;stroke:#89b4fa;stroke-width:5" id="rect3" width="568.2281769" height="803.7805252" x="1173.143505" y="121.1791155" rx="40" ry="40"/>
+    <rect style="stroke-width: 5" id="rect3" width="568.2281769" height="803.7805252" x="1173.143505" y="121.1791155" rx="40" ry="40" class="inkflow-fill-orange inkflow-stroke-blue"/>
     <image width="568.2281769" height="803.7805252" preserveAspectRatio="none" xlink:href="../assets/kinetic-kit-api.png" id="image1" x="1173.143505" y="121.1791155" clip-path="url(#clipPath4)"/>
   </g>
 </svg>

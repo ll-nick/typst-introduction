@@ -1,15 +1,9 @@
 <svg xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" xmlns:inkflow="urn:inkflow" inkflow:parent="numbered" viewBox="0 0 1920 1080" width="1920" height="1080" version="2.0" id="svg3" standalone="no">
-  <g inkscape:groupmode="layer" inkscape:label="__inkflow:layout:base__" sodipodi:insensitive="true" inkflow:layout-src="./base" inkflow:layout-hash="d40175e7" id="g1">
-    <defs id="defs1"/>
-    <rect width="1920" height="1080" class="inkflow-fill-bg" id="rect1"/>
-  </g>
-  <g inkscape:groupmode="layer" inkscape:label="__inkflow:layout:numbered__" sodipodi:insensitive="true" inkflow:layout-src="./numbered" inkflow:layout-hash="2b667c1b" id="g2">
-    <defs id="defs2"/>
-    <text id="zone-slide-number" x="1812.359" y="1034.4382" class="inkflow-fill-text-muted inkflow-fill-text inkflow-fill-code-text" text-anchor="end" font-size="39.6642px" font-family="sans-serif" style="stroke-width: 1.41658">99</text>
-    <text id="zone-slide-total" x="1831.1567" y="1034.5802" class="inkflow-fill-text-muted inkflow-fill-grey" font-size="29.6395px" font-family="sans-serif" style="stroke-width: 1.05855">99</text>
-    <text id="text1" x="1816.5184" y="1032.2501" class="inkflow-fill-text-muted inkflow-fill-grey" font-size="29.6395px" font-family="sans-serif" style="stroke-width: 1.05855">/</text>
-  </g>
-  <image width="1921.65224" height="1281.101494" preserveAspectRatio="none" xlink:href="../assets/distracted-me.jpg" id="image1" x="0" y="-119.0331812"/>
+  <g inkscape:groupmode="layer" inkscape:label="__inkflow:layout:base__" sodipodi:insensitive="true" inkflow:layout-src="./base" inkflow:layout-hash="0e0184e9"><defs/><rect width="1920" height="1080" class="inkflow-fill-bg"/>
+</g><g inkscape:groupmode="layer" inkscape:label="__inkflow:layout:numbered__" sodipodi:insensitive="true" inkflow:layout-src="numbered" inkflow:layout-hash="6a4a92fb"><defs/><text id="zone-slide-number" x="1812.359" y="1034.4382" class="inkflow-fill-text-muted inkflow-fill-text inkflow-fill-code-text" text-anchor="end" font-size="39.6642px" font-family="sans-serif" style="stroke-width: 1.41658">99</text>
+  <text id="zone-slide-total" x="1831.1567" y="1034.5802" class="inkflow-fill-text-muted inkflow-fill-grey" font-size="29.6395px" font-family="sans-serif" style="stroke-width: 1.05855">99</text>
+  <text id="text1" x="1816.5184" y="1032.2501" class="inkflow-fill-text-muted inkflow-fill-grey" font-size="29.6395px" font-family="sans-serif" style="stroke-width: 1.05855">/</text>
+</g><image width="1921.65224" height="1281.101494" preserveAspectRatio="none" xlink:href="../assets/distracted-me.jpg" id="image1" x="0" y="-119.0331812"/>
   <defs id="defs3">
     <style id="inkflow-preview">.inkflow-fill-bg { fill: #1e1e2e; }
 .inkflow-stroke-bg { stroke: #1e1e2e; }
@@ -46,6 +40,5 @@
 .inkflow-fill-pink { fill: #f5c2e7; }
 .inkflow-stroke-pink { stroke: #f5c2e7; }
 .inkflow-fill-grey { fill: #6c7086; }
-.inkflow-stroke-grey { stroke: #6c7086; }</style>
-  </defs>
+.inkflow-stroke-grey { stroke: #6c7086; }</style></defs>
 </svg>
