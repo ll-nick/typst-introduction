@@ -1,0 +1,44 @@
+# Releasing the talk.
+#
+# Push a tag v<version> to trigger this: it runs the full check (lint, types,
+# build, the demo-time replay), then attaches the demo paper and a
+# self-contained copy of the slides to a GitHub release.
+
+name: Release
+
+on:
+  push:
+    tags: ["v*"]
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up mise
+        uses: jdx/mise-action@v4
+
+      - name: Run checks
+        run: mise run check
+
+      - name: Build the slides as a single self-contained file
+        run: uv run inkflow build --inline-assets --output dist
+
+      - name: Rename the release assets
+        run: |
+          VERSION="${GITHUB_REF_NAME#v}"
+          cp dist/index.html "typst-introduction-$VERSION-slides.html"
+          cp demo/paper.pdf "typst-introduction-$VERSION-demo-paper.pdf"
+
+      - name: Create GitHub release
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: >
+          gh release create "$GITHUB_REF_NAME"
+          typst-introduction-*-slides.html
+          typst-introduction-*-demo-paper.pdf
+          --generate-notes
