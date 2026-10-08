@@ -16,6 +16,9 @@ they are meant to be read after the talk, not just watched during it.
 Open the presenter view (<kbd>p</kbd> or the button in the status bar)
 to see the presenter notes, which contain additional explanations and make the slides self-contained.
 
+The slides support light mode:
+Press <kbd>t</kbd> to toggle.
+
 ## Live demo
 
 The crash-course section of the talk is a live-coding demo:
