@@ -19,7 +19,7 @@ run = "uv run inkflow build"
 run = "uv run inkflow serve"
 
 [tasks.paper]
-description = "Build the final demo paper PDF from the lesson files"
+description = "Regenerate demo/main.typ from the lesson files and build the demo paper PDF"
 run = "uv run python demo/act.py build"
 
 [tasks.demo-check]
@@ -31,3 +31,5 @@ run = ["uv run ruff check --fix", "uv run ruff format"]
 
 [tasks.check]
 depends = ["lint", "fmt", "typecheck", "build", "demo-check"]
+description = "Also fails if demo/main.typ is out of sync with the lesson files"
+run = "git diff --exit-code demo/main.typ"

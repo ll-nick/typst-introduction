@@ -118,21 +118,21 @@ def check(scenes: list[Scene]) -> int:
 
 
 def build(scenes: list[Scene]) -> int:
-    """Write the fully assembled paper to main.typ, compile it, then restore it."""
-    # main.typ is checked in empty; restoring it avoids committing the assembled file.
-    original_main_typ = MAIN_TYP.read_text()
+    """Regenerate main.typ from the lesson files and compile it to paper.pdf.
+
+    main.typ is checked in fully assembled, so the live demo has something to reset:
+    the Setup scene empties it, and each later scene rebuilds it from lessons/.
+    """
     paper = ""
+    for scene in scenes:
+        for move in scene["moves"]:
+            paper = apply_move(paper, move)
+    MAIN_TYP.write_text(paper)
     try:
-        for scene in scenes:
-            for move in scene["moves"]:
-                paper = apply_move(paper, move)
-        MAIN_TYP.write_text(paper)
         compile_paper(paper, PAPER_PDF)
     except ActError as error:
         print(error, file=sys.stderr)
         return 1
-    finally:
-        MAIN_TYP.write_text(original_main_typ)
     return 0
 
 

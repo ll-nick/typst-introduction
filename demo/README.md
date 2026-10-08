@@ -127,4 +127,10 @@ Afterwards, flip through the crash-course slides as a recap.
 `.demo/paper.yaml` lists which lesson files make up each scene and what to highlight.
 Lesson paths resolve from `demo/`, since they are pasted into `main.typ`.
 `mise run demo-check` replays every scene and compiles the result after each one;
-`mise run paper` replays the full act once and builds the final `demo/paper.pdf`.
+`mise run paper` replays the full act once, regenerating `main.typ` and `demo/paper.pdf`.
+
+`main.typ` is checked in fully assembled,
+matching what `mise run paper` produces,
+so after editing a lesson file or `paper.yaml`, rerun it and commit the result.
+The live demo still works from that state:
+the Setup scene empties the file before the first lesson is typed.
