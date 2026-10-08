@@ -16,6 +16,18 @@ they are meant to be read after the talk, not just watched during it.
 Open the presenter view (<kbd>p</kbd> or the button in the status bar)
 to see the presenter notes, which contain additional explanations and make the slides self-contained.
 
+## Live demo
+
+The crash-course section of the talk is a live-coding demo:
+a dissertation-style IEEE paper is typed from an empty file,
+one Typst concept at a time,
+matching the slide sections it walks through (markup, math, figures, …).
+
+It's driven from VS Code with the [Demo Time](https://demotime.show) extension,
+which rebuilds `demo/main.typ` from the lesson files in `demo/lessons/`
+and highlights what's new at each step.
+See [`demo/README.md`](demo/README.md) for the full playbook and setup.
+
 ## S(l)ide Note
 
 Built with [Inkflow](https://github.com/ll-nick/inkflow),
